@@ -1,4 +1,4 @@
-* {
+ * {
   box-sizing: border-box;
 }
 
@@ -13,17 +13,39 @@ body {
 }
 
 #search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-li{
+.country-list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
-img{
-  height: 20px;
-  margin-right: 10px;
+.country-list li {
+  background-color: #fff;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.country-info {
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+
+img {
+  width: 150px;
+  height: 100px;
 }
