@@ -30,9 +30,9 @@ function onInput(e){
       }
     })
     .catch((error) => {
-      if (error === 404) {
+      if (error.message === 'Not Found') {
         Notiflix.Notify.failure("Oops, there is no country with that name");
-      } else {
+      }else{
         console.log(error.message);
       }
     });
